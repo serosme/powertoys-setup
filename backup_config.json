@@ -1,0 +1,9 @@
+{
+  "Root": ["settings.json"],
+  "EnvironmentVariables": ["settings.json"],
+  "File Locksmith": ["file-locksmith-settings.json"],
+  "Hosts": ["settings.json"],
+  "Keyboard Manager": ["settings.json", "default.json"],
+  "PowerRename": ["power-rename-settings.json"],
+  "PowerToys Run": ["settings.json"]
+}

@@ -1,0 +1,52 @@
+{
+  "remapKeys": {
+    "inProcess": []
+  },
+  "remapKeysToText": {
+    "inProcess": []
+  },
+  "remapShortcuts": {
+    "global": [],
+    "appSpecific": [
+      {
+        "originalKeys": "162;84",
+        "exactMatch": false,
+        "operationType": 0,
+        "newRemapKeys": "162;103",
+        "targetApp": "acmirage.exe"
+      },
+      {
+        "originalKeys": "162;84",
+        "exactMatch": false,
+        "operationType": 0,
+        "newRemapKeys": "162;96",
+        "targetApp": "acodyssey.exe"
+      },
+      {
+        "originalKeys": "162;84",
+        "exactMatch": false,
+        "operationType": 0,
+        "newRemapKeys": "162;103",
+        "targetApp": "acshadows.exe"
+      },
+      {
+        "originalKeys": "162;84",
+        "exactMatch": false,
+        "operationType": 0,
+        "newRemapKeys": "162;104",
+        "targetApp": "acvalhalla.exe"
+      },
+      {
+        "originalKeys": "162;84",
+        "exactMatch": false,
+        "operationType": 0,
+        "newRemapKeys": "162;105",
+        "targetApp": "borderlands3.exe"
+      }
+    ]
+  },
+  "remapShortcutsToText": {
+    "global": [],
+    "appSpecific": []
+  }
+}
