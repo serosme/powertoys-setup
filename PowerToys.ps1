@@ -6,12 +6,12 @@ if (-not (Test-Path $configPath)) {
     Write-Error "Missing configuration file: $configPath"
     exit
 }
-$configJson = Get-Content $configPath -Raw | ConvertFrom-Json
+$ConfigJson = Get-Content $configPath -Raw | ConvertFrom-Json
 $PowerToysRoot = "C:\Users\User\AppData\Local\Microsoft\PowerToys"
 $UserEnter = Read-Host "Enter 1 to export, 2 to import"
 
-foreach ($module in $configJson.PSObject.Properties.Name) {
-    $fileList = $configJson.$module
+foreach ($module in $ConfigJson.PSObject.Properties.Name) {
+    $fileList = $ConfigJson.$module
 
     foreach ($file in $fileList) {
         if ($module -eq "Root") {
