@@ -1,7 +1,42 @@
-{
-  "Root": ["settings.json"],
-  "File Locksmith": ["file-locksmith-settings.json"],
-  "Hosts": ["settings.json"],
-  "Keyboard Manager": ["settings.json", "default.json"],
-  "PowerRename": ["power-rename-settings.json"]
-}
+[
+  {
+    "Module": "Root",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys",
+    "File": "settings.json"
+  },
+  {
+    "Module": "File Locksmith",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys\\File Locksmith",
+    "File": "file-locksmith-settings.json"
+  },
+  {
+    "Module": "Hosts",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys\\Hosts",
+    "File": "settings.json"
+  },
+  {
+    "Module": "Keyboard Manager",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys\\Keyboard Manager",
+    "File": "settings.json"
+  },
+  {
+    "Module": "Keyboard Manager",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys\\Keyboard Manager",
+    "File": "default.json"
+  },
+  {
+    "Module": "PowerRename",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys\\PowerRename",
+    "File": "power-rename-settings.json"
+  },
+  {
+    "Module": "CmdPal",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.CommandPalette_8wekyb3d8bbwe\\LocalState",
+    "File": "bookmarks.json"
+  },
+  {
+    "Module": "CmdPal",
+    "Folder": "C:\\Users\\User\\AppData\\Local\\Packages\\Microsoft.CommandPalette_8wekyb3d8bbwe\\LocalState",
+    "File": "settings.json"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "Data": [
+    {
+      "Id": "9e746c25-9abb-498a-a562-6d5588aac4d5",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\Documents"
+    },
+    {
+      "Id": "e8502999-78eb-413b-bfa0-f9ecb4c1f636",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\Downloads"
+    },
+    {
+      "Id": "45bba0f4-7273-47cb-9064-806418a069e6",
+      "Name": "",
+      "Bookmark": "D:\\Games"
+    },
+    {
+      "Id": "a0cb4d2c-6a9c-41e5-83ff-a6219bad2dc5",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\Documents\\WindowsPowerShell"
+    },
+    {
+      "Id": "1cadb7d0-354f-4582-9de1-366ceef8f7c1",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\scoop\\persist"
+    },
+    {
+      "Id": "956d000f-52b5-41a6-991e-4000945858f1",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\scoop\\apps"
+    },
+    {
+      "Id": "e52097d1-c9b9-4620-afc3-fe05ad6c461b",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\AppData\\Roaming\\Rime"
+    },
+    {
+      "Id": "d6f20675-45e7-46b9-8a50-7ab9520a94ce",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\AppData\\Roaming\\JetBrains"
+    },
+    {
+      "Id": "9b1baa45-dea5-4c99-9b84-28e755f31937",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\.ssh"
+    },
+    {
+      "Id": "d3b46e2c-cf56-4b0e-a197-da4a9da7b948",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\AppData\\Local\\Microsoft\\PowerToys"
+    },
+    {
+      "Id": "5982dbb5-289e-482c-b3b4-d9050c15e071",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\workspace\\personal"
+    },
+    {
+      "Id": "996297f3-7c84-4638-aec6-ddc01df9593d",
+      "Name": "",
+      "Bookmark": "C:\\Users\\User\\workspace\\professional"
+    }
+  ]
+}
