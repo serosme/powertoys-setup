@@ -6,21 +6,22 @@ if (-not (Test-Path $configPath)) {
     Write-Error "Missing configuration file: $configPath"
     exit
 }
+
 $ConfigJson = Get-Content $configPath -Raw | ConvertFrom-Json
 $PowerToysRoot = "C:\Users\User\AppData\Local\Microsoft\PowerToys"
 $UserEnter = Read-Host "Enter 1 to export, 2 to import"
 
-foreach ($module in $ConfigJson.PSObject.Properties.Name) {
-    $fileList = $ConfigJson.$module
+foreach ($Module in $ConfigJson.PSObject.Properties.Name) {
+    $fileList = $ConfigJson.$Module
 
     foreach ($file in $fileList) {
-        if ($module -eq "Root") {
+        if ($Module -eq "Root") {
             $sourcePath = Join-Path $PowerToysRoot $file
             $targetPath = Join-Path $BackupRoot $file
         }
         else {
-            $sourceDir = Join-Path $PowerToysRoot $module
-            $targetDir = Join-Path $BackupRoot $module
+            $sourceDir = Join-Path $PowerToysRoot $Module
+            $targetDir = Join-Path $BackupRoot $Module
             $sourcePath = Join-Path $sourceDir $file
             $targetPath = Join-Path $targetDir $file
         }
@@ -29,20 +30,20 @@ foreach ($module in $ConfigJson.PSObject.Properties.Name) {
             if (Test-Path $sourcePath) {
                 $null = New-Item -ItemType Directory -Path (Split-Path $targetPath) -Force
                 Copy-Item -Path $sourcePath -Destination $targetPath -Force
-                Write-Host "Exported $module/$file"
+                Write-Host "Exported $Module/$file"
             }
             else {
-                Write-Host "Not found: $module/$file"
+                Write-Host "Not found: $Module/$file"
             }
         }
         elseif ($UserEnter -eq "2") {
             if (Test-Path $targetPath) {
                 $null = New-Item -ItemType Directory -Path (Split-Path $sourcePath) -Force
                 Copy-Item -Path $targetPath -Destination $sourcePath -Force
-                Write-Host "Imported $module/$file"
+                Write-Host "Imported $Module/$file"
             }
             else {
-                Write-Host "No backup file found: $module/$file"
+                Write-Host "No backup file found: $Module/$file"
             }
         }
     }
