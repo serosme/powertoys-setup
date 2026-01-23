@@ -5,9 +5,10 @@
     "AlwaysOnTop": false,
     "Awake": false,
     "CmdNotFound": false,
-    "CmdPal": false,
+    "CmdPal": true,
     "ColorPicker": false,
     "CropAndLock": false,
+    "CursorWrap": false,
     "EnvironmentVariables": true,
     "FancyZones": false,
     "File Explorer": true,
@@ -25,7 +26,7 @@
     "NewPlus": false,
     "Peek": false,
     "PowerRename": true,
-    "PowerToys Run": true,
+    "PowerToys Run": false,
     "QuickAccent": false,
     "RegistryPreview": false,
     "Shortcut Guide": false,
@@ -34,6 +35,7 @@
     "ZoomIt": false
   },
   "show_tray_icon": true,
+  "show_theme_adaptive_tray_icon": false,
   "is_elevated": false,
   "run_elevated": false,
   "show_new_updates_toast_notification": false,
@@ -43,10 +45,17 @@
   "dashboard_sort_order": 1,
   "is_admin": true,
   "enable_warnings_elevated_apps": true,
+  "enable_quick_access": false,
+  "quick_access_shortcut": {
+    "win": false,
+    "ctrl": false,
+    "alt": false,
+    "shift": false,
+    "code": 0,
+    "key": ""
+  },
   "theme": "system",
   "system_theme": "light",
-  "powertoys_version": "v0.96.1",
-  "ignored_conflict_properties": {
-    "ignored_shortcuts": []
-  }
+  "powertoys_version": "v0.97.0",
+  "ignored_conflict_properties": { "ignored_shortcuts": [] }
 }

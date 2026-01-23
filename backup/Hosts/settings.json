@@ -1,22 +1,12 @@
 {
   "properties": {
-    "ShowStartupWarning": {
-      "value": false
-    },
-    "LaunchAdministrator": {
-      "value": true
-    },
-    "LoopbackDuplicates": {
-      "value": false
-    },
+    "ShowStartupWarning": { "value": false },
+    "LaunchAdministrator": { "value": true },
+    "LoopbackDuplicates": { "value": false },
     "AdditionalLinesPosition": 0,
     "Encoding": 0,
-    "NoLeadingSpaces": {
-      "value": false
-    },
-    "BackupHosts": {
-      "value": true
-    },
+    "NoLeadingSpaces": { "value": false },
+    "BackupHosts": { "value": true },
     "BackupPath": "C:\\WINDOWS\\System32\\drivers\\etc",
     "DeleteBackupsMode": 2,
     "DeleteBackupsDays": 15,
